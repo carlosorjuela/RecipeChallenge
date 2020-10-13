@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.ts --exec ts-node",
-    "start": "ts-node src/index.ts"
+    "start": "nodemon src/index.ts --exec ts-node"
+  },
+  "engines": {
+     "node": "12.18.3"
   },
    "keywords": [],
   "author": "",
