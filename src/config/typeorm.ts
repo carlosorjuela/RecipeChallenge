@@ -17,5 +17,3 @@ export async function connect() {
     });
     console.log('Database is connected')
 }
-
-// mysql://bf6d8ddd47a321:9971bf23@us-cdbr-east-02.cleardb.com/heroku_15d24a3b3f63fc5?reconnect=true
