@@ -1,6 +1,6 @@
-import {  Query, Resolver, Mutation, ObjectType, Field, Arg, InputType } from 'type-graphql'
+import { Resolver, Mutation, ObjectType, Field, Arg, InputType } from 'type-graphql'
 import { User } from '../entity/Users'
-import bcrypt from 'bcrypt'
+import bcrypt from 'bcryptjs'
 import { validate } from 'class-validator'
 import { generateToken } from '../auth'
 
