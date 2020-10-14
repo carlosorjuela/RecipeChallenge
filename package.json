@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "nodemon src/index.ts --exec ts-node",
     "build": "tsc",
-    "start": "src/index.ts"
+    "start": "src/index.ts",
+    "watch-node": "nodemon ./dist/index.js",
+    "watch-ts": "tsc -w"
   },
   "engines": {
      "node": "12.18.3"
