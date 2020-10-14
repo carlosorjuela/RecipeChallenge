@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon src/index.ts --exec ts-node",
+    "build": "tsc",
     "start": "src/index.ts"
   },
   "engines": {
