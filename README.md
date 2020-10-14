@@ -141,7 +141,7 @@ query myRec {
 
 - You can start by crating and user.
 - login with the user you just created, save the token generated.
-- Place the Token in the **HTTP HEADER** itn the bottom part and place it as follows:  \
+- Place the Token in the **HTTP HEADER** in the bottom part and place it as follows:  \
    {
       "Authorization": "Bearer *here* "
    }
