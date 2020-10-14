@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "nodemon src/index.ts --exec ts-node",
     "build": "tsc",
-    "start": "./dist/index.js",
+    "start": "ts-node src/index.ts",
     "watch-node": "nodemon ./dist/index.js",
     "watch-ts": "tsc -w"
   },
